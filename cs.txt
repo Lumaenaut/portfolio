@@ -33,3 +33,4 @@ git log                 | History of previosu commits
 --------------------------------------------------------------------------------
 sudo reboot
 sudo poweroff
+sudo poweroff
