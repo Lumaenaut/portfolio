@@ -1,0 +1,35 @@
+Bash Cheat Sheet
+
+| program | action | destination
+
+Command			        | What It Does
+--------------------------------------------------------------------------------
+pwd			            | Shows your current directory (Print Working Directory)
+ls			            | Lists files and folders in the current directory
+ls -l			        | Long format list (more details)
+ls -a			        | Shows all files, including hidden ones (. prefix)
+cd [folder]		        | Changes to a specific folder
+cd ..			        | Goes up one level (to the parent directory)
+cd ~ or just cd		    | Goes to your home directory
+cd /			        | Goes to the root directory
+cd -			        | Goes to the previous directory you were in
+touch filename		    | Creates a new empty file
+mkdir foldername	    | Creates a new directory
+rm filename		        | Deletes a file
+rm -r foldername	    | Deletes a folder and its contents
+cp source destination	| Copies files or folders
+mv source destination	| Moves or renames files/folders
+cat filename		    | Shows contents of a file (quick view)
+nano filename		    | Opens file in nano text editor
+gedit filename		    | Opens file in a GUI editor (if installed)
+google-chrome &         | Opens google chrome
+code                    | Opens a file with VSCode
+--------------------------------------------------------------------------------
+git add                 | Add to the staging phase
+git commit              | Commit changes
+git push                | Push changes to GitHub
+git status              | Check the status of the files within the repository
+git log                 | History of previosu commits
+--------------------------------------------------------------------------------
+sudo reboot
+sudo poweroff
