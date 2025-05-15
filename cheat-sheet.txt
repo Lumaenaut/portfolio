@@ -25,12 +25,13 @@ gedit filename		    | Opens file in a GUI editor (if installed)
 google-chrome &         | Opens google chrome
 code                    | Opens a file with VSCode
 --------------------------------------------------------------------------------
+xdg-open address        | Opens the directory using file explorer
+--------------------------------------------------------------------------------
 git add                 | Add to the staging phase
 git commit              | Commit changes
 git push                | Push changes to GitHub
 git status              | Check the status of the files within the repository
 git log                 | History of previosu commits
 --------------------------------------------------------------------------------
-sudo reboot
-sudo poweroff
-sudo poweroff
+sudo reboot             | Reboot
+sudo poweroff           | Poweroff
