@@ -1,0 +1,24 @@
+I want my portfolio to be a reference library as well. Mainly for coding.
+
+2 themes
+    Normal routine: Exercise, read, videogames
+    Alter-ego: 'PanCosmica': Coder, Engineer
+
+English (mainly)
+Spanish
+
+Main menu
+    Coding
+    Illustration
+    Design
+    About
+    Contact
+    
+
+Style
+    Fonts:
+        https://fonts.google.com/specimen/Fascinate+Inline?preview.text=Alberto%20Space%20PanCosmica&categoryFilters=Feeling:%2FExpressive%2FVintage;Appearance:%2FTheme%2FArt+Deco
+        https://fonts.google.com/specimen/Fascinate?preview.text=Alberto%20Space%20PanCosmica&categoryFilters=Feeling:%2FExpressive%2FVintage;Appearance:%2FTheme%2FArt+Deco
+        https://fonts.google.com/specimen/Amarante?preview.text=Alberto%20Space%20PanCosmica&categoryFilters=Feeling:%2FExpressive%2FVintage;Appearance:%2FTheme%2FArt+Nouveau
+        https://fonts.google.com/specimen/Fascinate+Inline?preview.text=Alberto%20Space%20PanCosmica&categoryFilters=Feeling:%2FExpressive%2FVintage;Appearance:%2FTheme%2FInline
+    Color palette

@@ -1,7 +1,0 @@
-Dev tools
-
-https://roadmap.sh/     # Roadmap for software development
-https://leetcode.com/   # Coding exercises for interviews
-https://exercism.org/tracks?page=1      # Learn coding languages
-https://devdocs.io/     # Software documentation
-

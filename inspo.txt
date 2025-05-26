@@ -1,4 +1,12 @@
 Portfolio inspo
-    https://www.nick-blanchard.com/
-    https://crazycreative.design
-    https://www.liquidlink.design
+
+https://www.nick-blanchard.com/             Menu
+                                            Deck of cards idea
+                                            Introduction
+                                            Avatar following the mouse
+
+https://crazycreative.design                I like the style
+
+https://cyanbanister.com/                   I like the interface
+
+https://dumemearts.com/                     How does one achieve a scroll functionality like this
