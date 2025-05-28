@@ -3,5 +3,9 @@ Art tools
 https://colorhunt.co/palettes/retro                 # Color palettes
 https://color.adobe.com/create/color-wheel          # Color wheel
 
+Pixel related
+
+https://lospec.com/                                 # Pixel art
+
 Fonts
 
