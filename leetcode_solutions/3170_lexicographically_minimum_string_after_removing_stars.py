@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/
 # 2025_06_07
 # 386. Lexicographically Minimum String After Removing Stars
-# PYthon
+# Python
 
 class Solution:
     def clearStars(self, s: str) -> str:

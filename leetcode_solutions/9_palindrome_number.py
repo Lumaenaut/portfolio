@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/palindrome-number/
 # 2025_06_08
 # 9. Palindrome Number
-# PYthon
+# Python
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:

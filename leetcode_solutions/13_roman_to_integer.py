@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/roman-to-integer/description/
 # 2025_06_09
 # 13. Roman to Integer
-# PYthon
+# Python
 
 class Solution:
     def romanToInt(self, s: str) -> int:

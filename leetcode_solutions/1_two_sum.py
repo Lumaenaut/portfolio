@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/two-sum/description/
 # 2025_06_06
 # 1. Two Sum
-# PYthon
+# Python
 
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:

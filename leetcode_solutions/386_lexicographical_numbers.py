@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/lexicographical-numbers/description/
 # 2025_06_08
 # 386. Lexicographical Numbers
-# PYthon
+# Python
 
 class Solution:
     def lexicalOrder(self, n: int) -> list[int]:
