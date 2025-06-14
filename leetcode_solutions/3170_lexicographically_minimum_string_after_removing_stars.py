@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/
 # 2025_06_07
-# 386. Lexicographically Minimum String After Removing Stars
+# 3170. Lexicographically Minimum String After Removing Stars
 # Python
 
 class Solution:
