@@ -1,7 +1,7 @@
 # https://leetcode.com/explore/learn/card/binary-search/138/background/1038/
 # 2025_06_14
-# BInary Search
-# Template 1
+# Binary Search
+# Template I
 # Python
 
 class Solution:
@@ -43,6 +43,7 @@ nums_one = [5, 1, 3]
 
 sol = Solution()
 print(sol.search(nums_one, 3))
+
 
 '''
 2025_06_13
