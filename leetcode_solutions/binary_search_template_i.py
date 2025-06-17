@@ -4,6 +4,9 @@
 # Template I
 # Python
 
+
+# Find the target in an rotated list
+
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
         left, right = 0, len(nums) - 1
@@ -46,6 +49,8 @@ print(sol.search(nums_one, 3))
 
 
 '''
+**********************************************************************************************************
+
 2025_06_13
 
 Guessing the picked number within a range of integers
@@ -110,7 +115,7 @@ class Solution:
         
 2025_06_12
 
-Searching a target in a nums list using binary search
+Searching for target in a nums list using binary search
 
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
@@ -118,9 +123,7 @@ class Solution:
         left, right = 0, len(nums) - 1
         
         while left <= right:
-            print(left, right)
             guess = (right + left) // 2
-            print(guess, nums[guess])
             
             if nums[guess] == target:
                 return guess
@@ -130,5 +133,8 @@ class Solution:
                     left = guess + 1
                 else:
                     right = guess - 1
+        
         return -1
+
+**********************************************************************************************************
 '''
