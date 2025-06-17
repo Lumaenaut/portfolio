@@ -4,7 +4,34 @@
 # Template II
 # Python
 
-# Finding any peak value in a list
+
+# Finding the lowest value of a list within a rotated list
+
+class Solution:
+    def find_min(self, nums: list[int]) -> int:
+        left, right = 0, len(nums) - 1
+
+        while left < right:
+            mid = (left + right) // 2
+
+            if nums[mid] < nums[right]:
+                right = mid
+            else:
+                left = mid + 1
+
+        return left, nums[left]
+    
+li = [2, 3, 4, 5, 1]
+sol = Solution()
+print(sol.find_min(li))
+    
+
+'''
+**********************************************************************************************************
+
+2025_06_17
+
+Finding the peak values of a list
 
 class Solution:
     def find_peak_element(self, nums: list[int]) -> int:
@@ -23,9 +50,6 @@ class Solution:
 li = [1, 2, 3, 1, 5]
 sol = Solution()
 print(sol.find_peak_element(li))
-
-
-'''
 
 **********************************************************************************************************
 
@@ -48,10 +72,8 @@ class Solution:
             mid = (left + right) // 2
 
             if is_bad_version(mid):
-                print(left, mid, right, True)
                 right = mid
             else:
-                print(left, mid, right, False)
                 left = mid + 1
             
         return left

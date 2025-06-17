@@ -5,7 +5,7 @@
 # Python
 
 
-# Find the target in an rotated list
+# Find the target in a rotated list
 
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
@@ -13,31 +13,23 @@ class Solution:
         
         while left <= right:
             mid = (left + right) // 2
-            print(left, mid, right)
 
             if nums[mid] == target:
-                print('first')
                 return mid
             
             # Check if left half is ordered
             if nums[left] <= nums[mid]:
-                print('second')
 
                 # Check if number is in ordered range
                 if nums[left] <= target < nums[mid]:
-                    print('second, first')
                     right = mid - 1
                 else:
-                    print('second, second')
                     left = mid + 1
             else:
-                print('third')
 
                 if nums[mid] < target <= nums[right]:
-                    print('third, first')
                     left = mid + 1
                 else:
-                    print('third, second')
                     right = mid - 1
 
         return -1
@@ -115,11 +107,10 @@ class Solution:
         
 2025_06_12
 
-Searching for target in a nums list using binary search
+Searching for target in an ordered list using binary search
 
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
-        guess = 0
         left, right = 0, len(nums) - 1
         
         while left <= right:
