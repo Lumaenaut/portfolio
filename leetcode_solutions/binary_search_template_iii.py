@@ -1,8 +1,36 @@
 # https://leetcode.com/explore/learn/card/binary-search/138/background/1038/
-# 2025_06_22
+# 2025_06_23
 # Binary Search
 # Template III
 # Python
+
+
+# Finding the peak element
+
+class Solution:
+    def find_peak_element(self, nums: list[int]) -> int:
+        left, right = 0, len(nums) - 1
+
+        while left < right:
+            mid = (left + right) // 2
+
+            if nums[mid] < nums[mid + 1]:
+                left = mid + 1
+            else:
+                right = mid
+        
+        return left
+
+
+nums = [7,6,6,6,5,4]
+sol = Solution()
+print(sol.find_peak_element(nums))
+
+
+'''
+**********************************************************************************************************
+
+2025_06_22
 
 # Finding the k numbers closest to x
 
@@ -28,8 +56,6 @@ x = 8 # target
 sol = Solution()
 print(sol.find_closest_elements(arr, k, x))
 
-
-'''
 **********************************************************************************************************
 
 2025_06_20
