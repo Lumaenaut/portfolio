@@ -7,23 +7,24 @@ class Solution:
     def is_anagram(self, s: str, t: str) -> bool:
         
         '''
-        Function will return true or false if there are any duplicates in nums.
+        Function will return true or false if t is an anagram of s.
 
         Args:
-            nums: list[int]: List of integers that may or may not contain duplicates.
+            s: str: String.
+            t: str: Could be an anagram of s.
         
         Returns:
-            return: bool: True if there are duplicates in nums. False otherwise.
+            return: bool: True if t is an anagram of s.
         '''
         
-        if len(s) != len(t):
+        if len(s) != len(t): # First check if both strings have the same length
             return False
         
         hash_s, hash_t = {}, {}
 
         for i in range(len(s)):
-            hash_s[s[i]] = hash_s.get(s[i], 0) + 1
-            hash_t[t[i]] = hash_t.get(t[i], 0) + 1
+            hash_s[s[i]] = hash_s.get(s[i], 0) + 1 # Increment the frequency of each character used in the string
+            hash_t[t[i]] = hash_t.get(t[i], 0) + 1 # hash.get(key, default) will default to the default value if key isn't found
 
         return hash_s == hash_t
 
@@ -36,4 +37,3 @@ class Solution:
 
 sol = Solution()
 print(sol.is_anagram('anagram', 'aaangrm'))
-
