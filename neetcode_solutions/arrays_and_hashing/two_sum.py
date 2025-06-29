@@ -21,11 +21,13 @@ class Solution:
         hashmap = {}
     
         for i, num in enumerate(nums):
-            
-            if hashmap.get(target - num) != None:
-                return [hashmap[target - num], i]
+            diff = target - num
+
+            if diff in hashmap:
+                return [hashmap[diff], i]
 
             hashmap[nums[i]] = i
+
     
 nums = [3,4,5,6]
 target = 7
