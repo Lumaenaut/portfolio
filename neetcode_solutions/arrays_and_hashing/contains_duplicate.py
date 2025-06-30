@@ -16,9 +16,9 @@ class Solution:
             return: bool: True if there are duplicates in nums. False otherwise.
         '''
         
-        hashmap = set(nums) # If nums has duplicates they won't be stored in hashmap. Next line will take advantage of this.
-        
-        return len(hashmap) < len(nums) # Since hashmap won't have duplicates nums' length will be greater.
+        hashset = set(nums) # If nums has duplicates they won't be stored in hashmap. Next line will take advantage of this.
+
+        return len(hashset) < len(nums) # Since hashmap won't have duplicates nums' length will be greater.
 
         '''
         Brute force solution.
@@ -33,3 +33,9 @@ class Solution:
 
         return False
         '''
+
+
+nums = [1,2,3,3]
+sol = Solution()
+
+print(sol.has_duplicate(nums))
